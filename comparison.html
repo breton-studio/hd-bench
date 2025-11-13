@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bench Design Comparison</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background: white;
+            color: black;
+            line-height: 1.5;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        header {
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid black;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            letter-spacing: -0.01em;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+
+        .intro {
+            margin-bottom: 60px;
+        }
+
+        .intro p {
+            margin-bottom: 30px;
+            max-width: 900px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+
+        .feature-card {
+            padding: 0;
+        }
+
+        .feature-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-card li {
+            padding: 4px 0;
+            font-size: 14px;
+        }
+
+        .note {
+            border-top: 1px solid black;
+            padding-top: 20px;
+            max-width: 900px;
+            margin-top: 30px;
+        }
+
+        .note p {
+            font-size: 13px;
+            margin-top: 8px;
+        }
+
+        .concept-header {
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid black;
+            letter-spacing: -0.02em;
+        }
+
+        .concept-meta {
+            font-size: 13px;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .side-by-side {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+
+        .visualization-panel {
+            padding: 0;
+        }
+
+        .visualization-panel h3 {
+            margin-bottom: 15px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .svg-container {
+            background: white;
+            border: 0.5px solid black;
+            overflow: auto;
+            max-height: 800px;
+        }
+
+        .svg-container object {
+            width: 100%;
+            height: auto;
+            min-height: 600px;
+        }
+
+        .iframe-container {
+            background: white;
+            border: 0.5px solid black;
+            overflow: hidden;
+        }
+
+        .iframe-container iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
+        }
+
+        .panel-notes {
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        .downloads {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid black;
+        }
+
+        .downloads h3 {
+            margin-bottom: 20px;
+        }
+
+        .download-links {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .btn {
+            display: block;
+            padding: 12px 0;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            border: 0.5px solid transparent;
+            transition: border-color 0.15s ease;
+            font-size: 13px;
+        }
+
+        .btn:hover,
+        .btn:focus {
+            border: 0.5px solid black;
+            outline: none;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid black;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        footer p {
+            margin-bottom: 12px;
+        }
+
+        @media (max-width: 1200px) {
+            .side-by-side {
+                grid-template-columns: 1fr;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .download-links {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            .download-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Metal Bench Design Comparison</h1>
+            <p>SVG Technical Drawings and Interactive 3D Visualizations</p>
+        </header>
+
+        <section class="intro">
+            <h2>Comparing Visualization Methods</h2>
+            <p>
+                This comparison showcases two complementary approaches to communicating design intent
+                for sheet metal fabrication. Both methods serve different purposes in the design workflow
+                from concept to fabrication.
+            </p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4>SVG Technical Drawings</h4>
+                    <ul>
+                        <li>Precise dimensions with tolerances</li>
+                        <li>Orthographic projections</li>
+                        <li>Flat patterns for DXF export</li>
+                        <li>Production-ready documentation</li>
+                        <li>Print-friendly for shop floor</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h4>Interactive 3D Models</h4>
+                    <ul>
+                        <li>Intuitive spatial understanding</li>
+                        <li>Rotate, pan, zoom controls</li>
+                        <li>Assembly and exploded views</li>
+                        <li>Client presentation ready</li>
+                        <li>Design review and validation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="note">
+                <strong>Design Workflow Integration</strong>
+                <p>Use 3D for concept validation and client approval, then SVG flat patterns for
+                   SendCutSend fabrication. Both formats complement each other throughout the
+                   design-to-manufacturing process.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="concept-header">Concept 4: Thin Slab Legs</div>
+            <div class="concept-meta">Fukasawa-inspired Minimalism / No Bending Required / 3 Flat Panels</div>
+
+            <div class="side-by-side">
+                <div class="visualization-panel">
+                    <h3>SVG Technical Drawing</h3>
+                    <div class="svg-container">
+                        <object data="concept-4-drawings.svg" type="image/svg+xml" width="100%">
+                            <p>SVG not supported. <a href="concept-4-drawings.svg">Download SVG</a></p>
+                        </object>
+                    </div>
+                    <div class="panel-notes">
+                        Dimensioned / Flat Patterns / Production Ready
+                    </div>
+                </div>
+
+                <div class="visualization-panel">
+                    <h3>Interactive 3D Model</h3>
+                    <div class="iframe-container">
+                        <iframe src="concept-4-3d.html"></iframe>
+                    </div>
+                    <div class="panel-notes">
+                        Rotatable / Exploded View / Assembly Guide
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="concept-header">Concept 2: Interlocking U-Modules</div>
+            <div class="concept-meta">Modular Design / 6 Bends Total / Scalable Units</div>
+
+            <div class="side-by-side">
+                <div class="visualization-panel">
+                    <h3>SVG Technical Drawing</h3>
+                    <div class="svg-container">
+                        <object data="concept-2-drawings.svg" type="image/svg+xml" width="100%">
+                            <p>SVG not supported. <a href="concept-2-drawings.svg">Download SVG</a></p>
+                        </object>
+                    </div>
+                    <div class="panel-notes">
+                        Multi-View / Bend Lines / DXF Export Ready
+                    </div>
+                </div>
+
+                <div class="visualization-panel">
+                    <h3>Interactive 3D Model</h3>
+                    <div class="iframe-container">
+                        <iframe src="concept-2-3d.html"></iframe>
+                    </div>
+                    <div class="panel-notes">
+                        Spatial Context / Module Separation / Form Validation
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="downloads">
+            <h3>Downloads and Links</h3>
+            <div class="download-links">
+                <a href="concept-4-drawings.svg" download class="btn">Download Concept 4 SVG</a>
+                <a href="concept-2-drawings.svg" download class="btn">Download Concept 2 SVG</a>
+                <a href="concept-4-3d.html" class="btn">Open Concept 4 3D</a>
+                <a href="concept-2-3d.html" class="btn">Open Concept 2 3D</a>
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>Next Steps for Fusion 360</strong></p>
+            <p>
+                1. Import SVG flat patterns as sketches<br>
+                2. Use Sheet Metal workspace with SendCutSend K-factors<br>
+                3. Export DXF files for upload to sendcutsend.com<br>
+                4. Verify dimensions match manufacturing constraints (44" × 30" max)
+            </p>
+            <p style="margin-top: 20px;">
+                Designed for SendCutSend Fabrication / Inspired by Naoto Fukasawa
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

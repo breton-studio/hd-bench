@@ -29,50 +29,46 @@
 <circle cx="202.0" cy="163.0" r="2" fill="white" stroke="black" stroke-width="1"/>
 <circle cx="216.0" cy="149.0" r="2" fill="white" stroke="black" stroke-width="1"/>
 <circle cx="216.0" cy="163.0" r="2" fill="white" stroke="black" stroke-width="1"/>
-<polygon points="100.0,145.0 122.0,145.0 122.0,177.0 100.0,177.0" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<circle cx="104.0" cy="173.0" r="2" fill="white" stroke="black" stroke-width="1"/>
-<circle cx="104.0" cy="173.0" r="2" fill="white" stroke="black" stroke-width="1"/>
-<circle cx="118.0" cy="173.0" r="2" fill="white" stroke="black" stroke-width="1"/>
-<circle cx="118.0" cy="173.0" r="2" fill="white" stroke="black" stroke-width="1"/>
-<polygon points="198.0,145.0 220.0,145.0 220.0,177.0 198.0,177.0" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<circle cx="202.0" cy="173.0" r="2" fill="white" stroke="black" stroke-width="1"/>
-<circle cx="202.0" cy="173.0" r="2" fill="white" stroke="black" stroke-width="1"/>
-<circle cx="216.0" cy="173.0" r="2" fill="white" stroke="black" stroke-width="1"/>
-<circle cx="216.0" cy="173.0" r="2" fill="white" stroke="black" stroke-width="1"/>
+<polygon points="110.0,145.0 110.5,145.0 110.5,167.0 110.0,167.0" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<circle cx="110.25" cy="149.0" r="2" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="110.25" cy="163.0" r="2" fill="white" stroke="black" stroke-width="1"/>
+<polygon points="209.5,145.0 210.0,145.0 210.0,167.0 209.5,167.0" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<circle cx="209.75" cy="149.0" r="2" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="209.75" cy="163.0" r="2" fill="white" stroke="black" stroke-width="1"/>
 <text x="500" y="125" font-family="Arial, sans-serif" font-size="10" text-anchor="start" font-weight="normal" fill="black">Front View</text>
 <polygon points="450.0,363.0 570.0,363.0 570.0,362.75 450.0,362.75" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="450.0,395.0 472.0,395.0 472.0,394.5 450.0,394.5" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="548.0,395.0 570.0,395.0 570.0,394.5 548.0,394.5" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="460.0,395.0 460.5,395.0 460.5,363.0 460.0,363.0" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="559.5,395.0 560.0,395.0 560.0,363.0 559.5,363.0" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
 <text x="850" y="125" font-family="Arial, sans-serif" font-size="10" text-anchor="start" font-weight="normal" fill="black">Right Side View</text>
 <polygon points="800.0,363.0 822.0,363.0 822.0,362.75 800.0,362.75" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="800.0,395.0 832.0,395.0 832.0,394.5 800.0,394.5" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="800.0,395.0 832.0,395.0 832.0,394.5 800.0,394.5" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="800.0,395.0 822.0,395.0 822.0,363.0 800.0,363.0" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="800.0,395.0 822.0,395.0 822.0,363.0 800.0,363.0" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
 <text x="50" y="415" font-family="Arial, sans-serif" font-size="12" text-anchor="start" font-weight="normal" fill="black">ISOMETRIC VIEW</text>
 <polygon points="428.2842712474619,606.3297745501029 534.350288425444,545.093119987217 534.350288425444,522.639356027923 428.2842712474619,583.876010590809" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
 <polygon points="428.5052421165827,606.4573509137756 534.5712592945648,545.2206963508896 534.5712592945648,522.7669323915957 428.5052421165827,584.0035869544816" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
 <polygon points="534.350288425444,545.093119987217 534.350288425444,522.639356027923 534.5712592945648,522.7669323915957 534.5712592945648,545.2206963508896" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="400.0,590.0 419.44543648263004,578.7732799968043 419.44543648263004,546.1132596923767 400.0,557.3399796955724" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="400.4419417382416,590.2551527273454 419.88737822087165,579.0284327241496 419.88737822087165,546.3684124197221 400.4419417382416,557.5951324229178" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="419.44543648263004,578.7732799968043 419.44543648263004,546.1132596923767 419.88737822087165,546.3684124197221 419.88737822087165,579.0284327241496" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="486.6205806953521,539.9900654403099 506.06601717798213,528.7633454371141 506.06601717798213,496.10332513268645 486.6205806953521,507.33004513588224" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="487.0625224335937,540.2452181676551 506.50795891622374,529.0184981644594 506.50795891622374,496.3584778600318 487.0625224335937,507.5851978632276" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="506.06601717798213,528.7633454371141 506.06601717798213,496.10332513268645 506.50795891622374,496.3584778600318 506.50795891622374,529.0184981644594" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="408.83883476483186,584.8969454530928 409.2807765030734,584.6417927257475 409.2807765030734,562.1880287664535 408.83883476483186,562.4431814937989" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="437.12310601229376,601.2267200031957 437.5650477505353,600.9715672758504 437.5650477505353,578.5178033165564 437.12310601229376,578.7729560439018" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="409.2807765030734,584.6417927257475 409.2807765030734,562.1880287664535 437.5650477505353,578.5178033165564 437.5650477505353,600.9715672758504" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="496.78524067490866,534.1215527113666 497.2271824131503,533.8663999840212 497.2271824131503,511.41263602472725 496.78524067490866,511.6677887520726" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="525.0695119223706,550.4513272614695 525.5114536606122,550.1961745341241 525.5114536606122,527.7424105748302 525.0695119223706,527.9975633021755" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="497.2271824131503,533.8663999840212 497.2271824131503,511.41263602472725 525.5114536606122,527.7424105748302 525.5114536606122,550.1961745341241" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
 <text x="650" y="790" font-family="Arial, sans-serif" font-size="10" text-anchor="start" font-weight="normal" fill="black">Materials</text>
 <text x="650" y="806" font-family="Arial, sans-serif" font-size="9" text-anchor="start" font-weight="normal" fill="black">Seat Panel: 304 Stainless Steel 0.125"</text>
-<text x="650" y="820" font-family="Arial, sans-serif" font-size="9" text-anchor="start" font-weight="normal" fill="black">Left Leg: 304 Stainless Steel 0.25"</text>
-<text x="650" y="834" font-family="Arial, sans-serif" font-size="9" text-anchor="start" font-weight="normal" fill="black">Right Leg: 304 Stainless Steel 0.25"</text>
+<text x="650" y="820" font-family="Arial, sans-serif" font-size="9" text-anchor="start" font-weight="normal" fill="black">Left Leg: 304 Stainless Steel 16.0"</text>
+<text x="650" y="834" font-family="Arial, sans-serif" font-size="9" text-anchor="start" font-weight="normal" fill="black">Right Leg: 304 Stainless Steel 16.0"</text>
 <text x="50" y="760" font-family="Arial, sans-serif" font-size="12" text-anchor="start" font-weight="normal" fill="black">EXPLODED ASSEMBLY</text>
 <polygon points="419.6664073517509,946.3542963668684 525.732424529733,885.1176418039826 525.732424529733,862.6638778446885 419.6664073517509,923.9005324075745" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
 <polygon points="525.5114536606122,884.9900654403099 525.5114536606122,862.5363014810159 525.732424529733,862.6638778446885 525.732424529733,885.1176418039826" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
 <text x="535.732424529733" y="862.6638778446885" font-family="Arial, sans-serif" font-size="8" text-anchor="start" font-weight="normal" fill="black">Seat Panel</text>
-<polygon points="400.4419417382416,935.2551527273454 419.88737822087165,924.0284327241496 419.88737822087165,891.3684124197221 400.4419417382416,902.5951324229178" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="419.44543648263004,923.7732799968043 419.44543648263004,891.1132596923767 419.88737822087165,891.3684124197221 419.88737822087165,924.0284327241496" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<text x="429.88737822087165" y="891.3684124197221" font-family="Arial, sans-serif" font-size="8" text-anchor="start" font-weight="normal" fill="black">Left Leg</text>
-<polygon points="495.9013571984255,890.3482727145623 515.3467936810556,879.1215527113666 515.3467936810556,846.461532406939 495.9013571984255,857.6882524101347" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<polygon points="514.9048519428139,878.8663999840212 514.9048519428139,846.2063796795936 515.3467936810556,846.461532406939 515.3467936810556,879.1215527113666" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
-<text x="525.3467936810556" y="846.461532406939" font-family="Arial, sans-serif" font-size="8" text-anchor="start" font-weight="normal" fill="black">Right Leg</text>
-<line x1="525.732424529733" y1="862.6638778446885" x2="400.4419417382416" y2="935.2551527273454" stroke="black" stroke-width="0.5" opacity="0.5" stroke-dasharray="2,2"  />
-<line x1="419.88737822087165" y1="891.3684124197221" x2="495.9013571984255" y2="890.3482727145623" stroke="black" stroke-width="0.5" opacity="0.5" stroke-dasharray="2,2"  />
+<polygon points="437.12310601229376,946.2267200031957 437.5650477505353,945.9715672758504 437.5650477505353,923.5178033165564 437.12310601229376,923.7729560439018" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="409.2807765030734,929.6417927257475 409.2807765030734,907.1880287664535 437.5650477505353,923.5178033165564 437.5650477505353,945.9715672758504" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<text x="447.5650477505353" y="923.5178033165564" font-family="Arial, sans-serif" font-size="8" text-anchor="start" font-weight="normal" fill="black">Left Leg</text>
+<polygon points="533.9083466872024,900.5543818083767 534.350288425444,900.2992290810313 534.350288425444,877.8454651217373 533.9083466872024,878.1006178490827" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<polygon points="506.06601717798213,883.9694545309284 506.06601717798213,861.5156905716344 534.350288425444,877.8454651217373 534.350288425444,900.2992290810313" fill="white" stroke="black" stroke-width="0.5" opacity="1.0"/>
+<text x="544.350288425444" y="877.8454651217373" font-family="Arial, sans-serif" font-size="8" text-anchor="start" font-weight="normal" fill="black">Right Leg</text>
+<line x1="525.732424529733" y1="862.6638778446885" x2="437.12310601229376" y2="946.2267200031957" stroke="black" stroke-width="0.5" opacity="0.5" stroke-dasharray="2,2"  />
+<line x1="437.5650477505353" y1="923.5178033165564" x2="533.9083466872024" y2="900.5543818083767" stroke="black" stroke-width="0.5" opacity="0.5" stroke-dasharray="2,2"  />
 <text x="50" y="1105" font-family="Arial, sans-serif" font-size="12" text-anchor="start" font-weight="normal" fill="black">FLAT PATTERNS</text>
 <text x="50" y="1121" font-family="Arial, sans-serif" font-size="9" text-anchor="start" font-weight="normal" fill="black">For SendCutSend DXF Export</text>
 <rect x="100" y="1140" width="90.0" height="16.5" fill="white" stroke="black" stroke-width="1" opacity="1.0"/>
@@ -102,42 +98,34 @@
 <text x="115.0" y="1145.25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(90.0 115.0 1148.25)">11.0"</text>
 <text x="145.0" y="1115" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="black">Seat Panel</text>
 <text x="145.0" y="1126" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="black">304 Stainless Steel - 0.125" thick</text>
-<rect x="100" y="1236.5" width="16.5" height="24.0" fill="white" stroke="black" stroke-width="1" opacity="1.0"/>
-<circle cx="103.0" cy="1257.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
-<text x="109.0" y="1260.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
-<circle cx="103.0" cy="1257.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
-<text x="109.0" y="1260.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
-<circle cx="113.5" cy="1257.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
-<text x="119.5" y="1260.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
-<circle cx="113.5" cy="1257.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
-<text x="119.5" y="1260.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
+<rect x="100" y="1236.5" width="0.375" height="16.5" fill="white" stroke="black" stroke-width="1" opacity="1.0"/>
+<circle cx="100.1875" cy="1239.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
+<text x="106.1875" y="1242.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
+<circle cx="100.1875" cy="1250.0" r="2" fill="white" stroke="black" stroke-width="0.5"/>
+<text x="106.1875" y="1253.0" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
 <line x1="100" y1="1236.5" x2="100.0" y2="1221.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
-<line x1="116.5" y1="1236.5" x2="116.5" y2="1221.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
-<line x1="100.0" y1="1221.5" x2="116.5" y2="1221.5" stroke="black" stroke-width="0.5" opacity="1.0"  marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead)"/>
-<text x="108.25" y="1218.5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(0.0 108.25 1221.5)">11.0"</text>
+<line x1="100.375" y1="1236.5" x2="100.375" y2="1221.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
+<line x1="100.0" y1="1221.5" x2="100.375" y2="1221.5" stroke="black" stroke-width="0.5" opacity="1.0"  marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead)"/>
+<text x="100.1875" y="1218.5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(0.0 100.1875 1221.5)">0.2"</text>
 <line x1="100" y1="1236.5" x2="115.0" y2="1236.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
-<line x1="100" y1="1260.5" x2="115.0" y2="1260.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
-<line x1="115.0" y1="1236.5" x2="115.0" y2="1260.5" stroke="black" stroke-width="0.5" opacity="1.0"  marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead)"/>
-<text x="115.0" y="1245.5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(90.0 115.0 1248.5)">16.0"</text>
-<text x="108.25" y="1211.5" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="black">Left Leg</text>
-<text x="108.25" y="1222.5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="black">304 Stainless Steel - 0.25" thick</text>
-<rect x="100" y="1340.5" width="16.5" height="24.0" fill="white" stroke="black" stroke-width="1" opacity="1.0"/>
-<circle cx="103.0" cy="1361.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
-<text x="109.0" y="1364.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
-<circle cx="103.0" cy="1361.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
-<text x="109.0" y="1364.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
-<circle cx="113.5" cy="1361.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
-<text x="119.5" y="1364.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
-<circle cx="113.5" cy="1361.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
-<text x="119.5" y="1364.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
-<line x1="100" y1="1340.5" x2="100.0" y2="1325.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
-<line x1="116.5" y1="1340.5" x2="116.5" y2="1325.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
-<line x1="100.0" y1="1325.5" x2="116.5" y2="1325.5" stroke="black" stroke-width="0.5" opacity="1.0"  marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead)"/>
-<text x="108.25" y="1322.5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(0.0 108.25 1325.5)">11.0"</text>
-<line x1="100" y1="1340.5" x2="115.0" y2="1340.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
-<line x1="100" y1="1364.5" x2="115.0" y2="1364.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
-<line x1="115.0" y1="1340.5" x2="115.0" y2="1364.5" stroke="black" stroke-width="0.5" opacity="1.0"  marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead)"/>
-<text x="115.0" y="1349.5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(90.0 115.0 1352.5)">16.0"</text>
-<text x="108.25" y="1315.5" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="black">Right Leg</text>
-<text x="108.25" y="1326.5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="black">304 Stainless Steel - 0.25" thick</text>
+<line x1="100" y1="1253.0" x2="115.0" y2="1253.0" stroke="black" stroke-width="0.3" opacity="1.0"   />
+<line x1="115.0" y1="1236.5" x2="115.0" y2="1253.0" stroke="black" stroke-width="0.5" opacity="1.0"  marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead)"/>
+<text x="115.0" y="1241.75" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(90.0 115.0 1244.75)">11.0"</text>
+<text x="100.1875" y="1211.5" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="black">Left Leg</text>
+<text x="100.1875" y="1222.5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="black">304 Stainless Steel - 16.0" thick</text>
+<rect x="100" y="1333.0" width="0.375" height="16.5" fill="white" stroke="black" stroke-width="1" opacity="1.0"/>
+<circle cx="100.1875" cy="1336.0" r="2" fill="white" stroke="black" stroke-width="0.5"/>
+<text x="106.1875" y="1339.0" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
+<circle cx="100.1875" cy="1346.5" r="2" fill="white" stroke="black" stroke-width="0.5"/>
+<text x="106.1875" y="1349.5" font-family="Arial, sans-serif" font-size="7" text-anchor="start" font-weight="normal" fill="black">Ø0.25"</text>
+<line x1="100" y1="1333.0" x2="100.0" y2="1318.0" stroke="black" stroke-width="0.3" opacity="1.0"   />
+<line x1="100.375" y1="1333.0" x2="100.375" y2="1318.0" stroke="black" stroke-width="0.3" opacity="1.0"   />
+<line x1="100.0" y1="1318.0" x2="100.375" y2="1318.0" stroke="black" stroke-width="0.5" opacity="1.0"  marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead)"/>
+<text x="100.1875" y="1315.0" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(0.0 100.1875 1318.0)">0.2"</text>
+<line x1="100" y1="1333.0" x2="115.0" y2="1333.0" stroke="black" stroke-width="0.3" opacity="1.0"   />
+<line x1="100" y1="1349.5" x2="115.0" y2="1349.5" stroke="black" stroke-width="0.3" opacity="1.0"   />
+<line x1="115.0" y1="1333.0" x2="115.0" y2="1349.5" stroke="black" stroke-width="0.5" opacity="1.0"  marker-start="url(#arrowhead-start)" marker-end="url(#arrowhead)"/>
+<text x="115.0" y="1338.25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="black" transform="rotate(90.0 115.0 1341.25)">11.0"</text>
+<text x="100.1875" y="1308.0" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="black">Right Leg</text>
+<text x="100.1875" y="1319.0" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="black">304 Stainless Steel - 16.0" thick</text>
 </svg>

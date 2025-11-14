@@ -64,13 +64,13 @@ def create_concept_4_assembled() -> List[Dict]:
     seat['name'] = 'Seat Panel'
     panels.append(seat)
 
-    # Left leg: 11" x 16" x 0.25"
-    left_leg = create_box_mesh(0, 0, 0, 11.0, 16.0, 0.25, 'white')
+    # Left leg: 0.25" thin x 11" deep x 16" tall (VERTICAL SLAB running front-to-back)
+    left_leg = create_box_mesh(5.0, 0, 0, 0.25, 11.0, 16.0, 'white')
     left_leg['name'] = 'Left Leg'
     panels.append(left_leg)
 
-    # Right leg: 11" x 16" x 0.25" at x=49"
-    right_leg = create_box_mesh(49.0, 0, 0, 11.0, 16.0, 0.25, 'white')
+    # Right leg: 0.25" thin x 11" deep x 16" tall (VERTICAL SLAB running front-to-back)
+    right_leg = create_box_mesh(54.75, 0, 0, 0.25, 11.0, 16.0, 'white')
     right_leg['name'] = 'Right Leg'
     panels.append(right_leg)
 
@@ -83,17 +83,17 @@ def create_concept_4_exploded() -> List[Dict]:
     explode_offset = 8.0
 
     # Seat moved up
-    seat = create_box_mesh(0, 0, 16.0 + explode_offset, 60.0, 11.0, 0.125, '#d4d4d4')
+    seat = create_box_mesh(0, 0, 16.0 + explode_offset, 60.0, 11.0, 0.125, 'white')
     seat['name'] = 'Seat Panel'
     panels.append(seat)
 
-    # Left leg moved left
-    left_leg = create_box_mesh(-explode_offset, 0, 0, 11.0, 16.0, 0.25, '#a0a0a0')
+    # Left leg moved left (VERTICAL SLAB running front-to-back)
+    left_leg = create_box_mesh(5.0 - explode_offset, 0, 0, 0.25, 11.0, 16.0, 'white')
     left_leg['name'] = 'Left Leg'
     panels.append(left_leg)
 
-    # Right leg moved right
-    right_leg = create_box_mesh(49.0 + explode_offset, 0, 0, 11.0, 16.0, 0.25, 'white')
+    # Right leg moved right (VERTICAL SLAB running front-to-back)
+    right_leg = create_box_mesh(54.75 + explode_offset, 0, 0, 0.25, 11.0, 16.0, 'white')
     right_leg['name'] = 'Right Leg'
     panels.append(right_leg)
 
@@ -113,22 +113,23 @@ def create_concept_2_assembled() -> List[Dict]:
         seat['name'] = f'Module {i+1} Seat'
         panels.append(seat)
 
-        # Left wall: 3" x 12" x 14"
-        left_wall = create_box_mesh(x_offset, 0, 3.0, 3.0, 12.0, 14.0, module_color)
+        # Left vertical wall: 0.1" thin x 12" deep x 14" tall (thin plate spanning full depth)
+        left_wall = create_box_mesh(x_offset, 0, 3.0, 0.1, 12.0, 14.0, module_color)
         left_wall['name'] = f'Module {i+1} Left Wall'
         panels.append(left_wall)
 
-        # Right wall: 3" x 12" x 14"
-        right_wall = create_box_mesh(x_offset + 18.0, 0, 3.0, 3.0, 12.0, 14.0, module_color)
+        # Right vertical wall: 0.1" thin x 12" deep x 14" tall (thin plate spanning full depth)
+        right_wall = create_box_mesh(x_offset + 20.9, 0, 3.0, 0.1, 12.0, 14.0, module_color)
         right_wall['name'] = f'Module {i+1} Right Wall'
         panels.append(right_wall)
 
-        # Bottom feet: 3" x 12" x 3"
+        # Left foot (base): 3" x 12" x 3" under left wall
         left_foot = create_box_mesh(x_offset, 0, 0, 3.0, 12.0, 3.0, module_color)
         left_foot['name'] = f'Module {i+1} Left Foot'
         panels.append(left_foot)
 
-        right_foot = create_box_mesh(x_offset + 18.0, 0, 0, 3.0, 12.0, 3.0, module_color)
+        # Right foot (base): 3" x 12" x 3" under right wall
+        right_foot = create_box_mesh(x_offset + 18.9, 0, 0, 3.0, 12.0, 3.0, module_color)
         right_foot['name'] = f'Module {i+1} Right Foot'
         panels.append(right_foot)
 
@@ -144,27 +145,27 @@ def create_concept_2_exploded() -> List[Dict]:
         x_offset = i * (21.0 + spacing)
         module_color = 'white'
 
-        # Seat
+        # Seat (exploded up and back)
         seat = create_box_mesh(x_offset, -spacing, 17.0 + spacing, 21.0, 12.0, 0.1, module_color)
         seat['name'] = f'Module {i+1} Seat'
         panels.append(seat)
 
-        # Left wall
-        left_wall = create_box_mesh(x_offset - spacing/2, 0, 3.0, 3.0, 12.0, 14.0, module_color)
+        # Left vertical wall (exploded left) - thin plate spanning full depth
+        left_wall = create_box_mesh(x_offset - spacing/2, 0, 3.0, 0.1, 12.0, 14.0, module_color)
         left_wall['name'] = f'Module {i+1} Left Wall'
         panels.append(left_wall)
 
-        # Right wall
-        right_wall = create_box_mesh(x_offset + 18.0 + spacing/2, 0, 3.0, 3.0, 12.0, 14.0, module_color)
+        # Right vertical wall (exploded right) - thin plate spanning full depth
+        right_wall = create_box_mesh(x_offset + 20.9 + spacing/2, 0, 3.0, 0.1, 12.0, 14.0, module_color)
         right_wall['name'] = f'Module {i+1} Right Wall'
         panels.append(right_wall)
 
-        # Bottom feet
+        # Bottom feet (exploded down)
         left_foot = create_box_mesh(x_offset - spacing/2, 0, -spacing/2, 3.0, 12.0, 3.0, module_color)
         left_foot['name'] = f'Module {i+1} Left Foot'
         panels.append(left_foot)
 
-        right_foot = create_box_mesh(x_offset + 18.0 + spacing/2, 0, -spacing/2, 3.0, 12.0, 3.0, module_color)
+        right_foot = create_box_mesh(x_offset + 18.9 + spacing/2, 0, -spacing/2, 3.0, 12.0, 3.0, module_color)
         right_foot['name'] = f'Module {i+1} Right Foot'
         panels.append(right_foot)
 

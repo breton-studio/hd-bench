@@ -557,37 +557,33 @@ def create_concept_4_slab_legs() -> List[Panel]:
     )
     panels.append(seat)
 
-    # Left leg: 11" x 16" x 0.250"
+    # Left leg: 0.25" thin x 11" deep x 16" tall (VERTICAL SLAB running front-to-back)
     left_leg = Panel(
         name="Left Leg",
-        width=11.0,
-        depth=16.0,
-        thickness=0.250,
-        position=Point3D(0, 0, 0),
+        width=0.250,       # X: 0.25" thin (perpendicular to bench length)
+        depth=11.0,        # Y: 11" deep (runs full seat depth, front to back)
+        thickness=16.0,    # Z: 16" tall (vertical height)
+        position=Point3D(5.0, 0, 0),  # 5" inset from left edge
         holes=[
-            # Matching holes for seat connection
-            Point3D(2, 14, 0),
-            Point3D(2, 14, 0),
-            Point3D(9, 14, 0),
-            Point3D(9, 14, 0),
+            # Mounting holes at top edge for seat connection
+            Point3D(0.125, 2, 15.5),
+            Point3D(0.125, 9, 15.5),
         ],
         material="304 Stainless Steel"
     )
     panels.append(left_leg)
 
-    # Right leg: 11" x 16" x 0.250"
+    # Right leg: 0.25" thin x 11" deep x 16" tall (VERTICAL SLAB running front-to-back)
     right_leg = Panel(
         name="Right Leg",
-        width=11.0,
-        depth=16.0,
-        thickness=0.250,
-        position=Point3D(49.0, 0, 0),
+        width=0.250,       # X: 0.25" thin (perpendicular to bench length)
+        depth=11.0,        # Y: 11" deep (runs full seat depth, front to back)
+        thickness=16.0,    # Z: 16" tall (vertical height)
+        position=Point3D(54.75, 0, 0),  # 5" inset from right edge (60 - 5 - 0.25)
         holes=[
-            # Matching holes for seat connection
-            Point3D(2, 14, 0),
-            Point3D(2, 14, 0),
-            Point3D(9, 14, 0),
-            Point3D(9, 14, 0),
+            # Mounting holes at top edge for seat connection
+            Point3D(0.125, 2, 15.5),
+            Point3D(0.125, 9, 15.5),
         ],
         material="304 Stainless Steel"
     )
@@ -601,49 +597,71 @@ def create_concept_2_u_modules() -> List[Panel]:
     panels = []
 
     # Each U-module is 21" wide x 12" deep x 17" tall
-    # Flat pattern: 21" x 31" (12" + 3" + 14" + 3")
+    # U-shape: bottom feet (3" tall) + vertical walls (14" tall) + seat on top
+    # Flat pattern before bending: 21" x 31" (3" + 14" + 12" + 14" + 3" - some overlap)
 
     for i in range(3):
         x_pos = i * 21.0  # Position modules side by side
 
-        # For visualization, we'll represent each U-module as 3 panels:
-        # Seat, left side, right side
-
-        # Seat portion of U
+        # Seat portion of U (horizontal on top)
         seat = Panel(
             name=f"Module {i+1} - Seat",
-            width=21.0,
-            depth=12.0,
-            thickness=0.100,
-            position=Point3D(x_pos, 0, 17.0),
+            width=21.0,       # X: 21" wide (full width of module)
+            depth=12.0,       # Y: 12" deep
+            thickness=0.100,  # Z: 0.1" thin horizontal panel
+            position=Point3D(x_pos, 0, 17.0),  # At top of U
             holes=[],
             material="304 Stainless Steel"
         )
         panels.append(seat)
 
-        # Left side of U
-        left_side = Panel(
-            name=f"Module {i+1} - Left Side",
-            width=3.0,
-            depth=12.0,
-            thickness=0.100,
-            position=Point3D(x_pos, 0, 3.0),
+        # Left vertical wall of U (thin plate spanning full depth)
+        left_wall = Panel(
+            name=f"Module {i+1} - Left Wall",
+            width=0.100,      # X: 0.1" thin (vertical plate thickness)
+            depth=12.0,       # Y: 12" deep (spans full seat depth front-to-back)
+            thickness=14.0,   # Z: 14" tall (vertical height)
+            position=Point3D(x_pos, 0, 3.0),  # At left edge, starts above feet
             holes=[],
             material="304 Stainless Steel"
         )
-        panels.append(left_side)
+        panels.append(left_wall)
 
-        # Right side of U
-        right_side = Panel(
-            name=f"Module {i+1} - Right Side",
-            width=3.0,
-            depth=12.0,
-            thickness=0.100,
-            position=Point3D(x_pos + 18.0, 0, 3.0),
+        # Right vertical wall of U (thin plate spanning full depth)
+        right_wall = Panel(
+            name=f"Module {i+1} - Right Wall",
+            width=0.100,      # X: 0.1" thin (vertical plate thickness)
+            depth=12.0,       # Y: 12" deep (spans full seat depth front-to-back)
+            thickness=14.0,   # Z: 14" tall (vertical height)
+            position=Point3D(x_pos + 20.9, 0, 3.0),  # At right edge (21 - 0.1), starts above feet
             holes=[],
             material="304 Stainless Steel"
         )
-        panels.append(right_side)
+        panels.append(right_wall)
+
+        # Left foot of U (horizontal base under left wall)
+        left_foot = Panel(
+            name=f"Module {i+1} - Left Foot",
+            width=3.0,        # X: 3" wide
+            depth=12.0,       # Y: 12" deep
+            thickness=3.0,    # Z: 3" tall base
+            position=Point3D(x_pos, 0, 0),  # Aligned with left wall
+            holes=[],
+            material="304 Stainless Steel"
+        )
+        panels.append(left_foot)
+
+        # Right foot of U (horizontal base under right wall)
+        right_foot = Panel(
+            name=f"Module {i+1} - Right Foot",
+            width=3.0,        # X: 3" wide
+            depth=12.0,       # Y: 12" deep
+            thickness=3.0,    # Z: 3" tall base
+            position=Point3D(x_pos + 18.9, 0, 0),  # Aligned with right wall (21 - 3 + 0.9)
+            holes=[],
+            material="304 Stainless Steel"
+        )
+        panels.append(right_foot)
 
     return panels
 
